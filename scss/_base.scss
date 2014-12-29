@@ -1,0 +1,72 @@
+@import "bootstrap";
+
+*{
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+html, body{
+    height:100%;
+    //overflow:hidden;
+}
+
+body{
+    color:$black;
+    @extend%alegreya;
+}
+
+p{
+    font-size:16px;
+    line-height:21px;
+    color:$black;
+    text-align:center;
+    text-transform:none;
+    margin:15px 0;
+}
+
+a{
+    color:$black;
+    text-decoration:underline;
+    font-weight:bold;
+}
+
+h1,h2{
+    text-align:center;
+    letter-spacing:2px;
+}
+
+h1{
+    @extend%bodoni-std-black;
+    color:$black;
+}
+
+h2{
+    @extend%bodoni-std-black;
+    color:$black;
+    font-size:30px;
+    line-height:35px;
+    text-transform:uppercase;
+}
+
+.button{
+    padding:20px 30px;
+    background:$black;
+    color:white;
+    text-decoration:none;
+    width:50%;
+    margin:50px auto;
+    display:block;
+    text-align:center;
+    font-weight:normal;
+    &:hover{
+        background:$gold;
+        color:white;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .button{
+        width:100%;
+    }
+}

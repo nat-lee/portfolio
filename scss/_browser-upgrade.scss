@@ -1,0 +1,52 @@
+.browser-upgrade{
+    position:fixed;
+
+    .header-wrapper{
+        animation:none;
+        -webkit-animation: none;
+        background-image:none;
+        min-height:100%;
+
+        .heading{
+            width:1200px;
+            max-width:1200px;
+        }
+
+        h2{
+            width:450px;
+        }
+    }
+
+    .browser-upgrade-text{
+        margin:0 auto 20px auto;
+        display:block;
+        width:618px;
+        height:182px;
+    }
+
+    h2{
+        width:32.333333%;
+        margin:0 auto;
+        display:block;
+
+        a{
+            color:$gold;
+            font-weight:normal;
+            &:hover{color:$black;}
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .browser-upgrade{
+        .header-wrapper{
+            padding-bottom:120px;
+            padding-left:40px;
+            padding-right:40px;
+            .heading img{
+                max-width:618px;
+                margin: 0 auto 20px auto;
+            }
+        }
+    }
+}

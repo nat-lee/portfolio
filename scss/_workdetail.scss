@@ -1,0 +1,184 @@
+@import "compass";
+
+.te-mata{background:$beige;}
+.rodney-wayne, .farah-quinn{background:$pink;}
+.vomo, .tourisim-nz{background:$turquoise;}
+.health-101, .collette-dinnigan{background:$purple;}
+.gici, .shine{background:$orange;}
+.nz-day{background:$yellow;}
+.ecoya{background:$grey;}
+
+.detail-page{
+    .full-width{
+        h1{
+            margin-bottom:5px;
+        }
+        h2{
+            @extend%akzidenz-grotesk;
+            font-size:15px;
+            line-height:20px;
+            color:$gold;
+        }
+
+        &.images{
+            margin-top:0;
+            .inner{
+                width:85%;
+                max-width:1200px;
+            }
+        }
+
+        .inner{
+            padding:0 0 40px 0;
+        }
+
+        img{
+            width:100%;
+        }
+
+        .full{
+            width:100%;
+        }
+
+        .half{
+            width:48.833333%;
+            float:left;
+            background:blue;
+        }
+
+        .two-thirds{
+            width:64.566668%;
+            float:left;
+            background:yellow;
+        }
+
+        .one-third{
+            width:33.099999%;
+            float:left;
+            background:orange;
+        }
+
+        .image{
+            margin:20% 0;
+
+            &:first-child{
+                margin-top:0;
+            }
+
+            &:after{
+                content:"";
+                height:1px;
+                width:20%;
+                display:block;
+                left:50%;
+                margin:8% 0 8% -10%;
+                position:absolute;
+                background:$dark-grey;
+             }
+        }
+
+        .first{margin-right:2.333333%;}
+    }
+    .pagination{
+        .inner{
+            max-width:50%;
+            margin-bottom:100px;
+        }
+        .button{
+            width:30%;
+            float:left;
+            margin:0;
+            &.back{
+                margin:0 5%;
+            }
+            &.next, &.previous{
+                background:none;
+                color:$black;
+                text-align:center;
+                &:hover{
+                    &:before{color:$gold;}
+                }
+                &:before{
+                    text-indent:0;
+                    font-size:30px;
+                    @extend%icomoon;
+                }
+            }
+            &.next{
+                 &:before{
+                    content:"\e602";
+                }
+            }
+            &.previous{
+                &:before{
+                    content:"\e600";
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:960px){
+    .detail-page{
+        .pagination{
+            .inner{
+                max-width:100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:600px){
+    .detail-page{
+
+        .full-width{
+
+            h1{
+            font-size:35px;
+            line-height:40px;
+            }
+
+            &.images{
+                padding:0;
+                .inner{
+                    width:100%;
+                }
+            }
+        }
+
+        .pagination{
+            .inner{
+                width:230px;
+                margin:0 auto 50px auto;
+                display:block;
+                text-align:center;
+            }
+            .button{
+                padding:0;
+                background:none;
+                color:$black;
+                &:hover{
+                    color:$gold;
+                }
+                &.back{
+                    width:150px;
+                    margin:0 10px;
+                }
+                &.next, &.previous{
+                    width:30px;
+                    &:before{
+                        font-size:20px;
+                    }
+                }
+            }
+        }
+        .full-width{
+            .one-third, .two-thirds, .half, .full{
+                width:100%;
+            }
+        }
+    }
+}
+
+
+

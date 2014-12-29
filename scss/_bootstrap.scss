@@ -1,0 +1,143 @@
+@import "compass";
+
+//variables
+
+$charcoal:#303030;
+$black: #322e32;
+$dark-black:#333133;
+$gold: #ae9262;
+$cream:#f7f0da;
+$border: #e7e3da;
+
+//greys
+$light-grey:#e5e5dd;
+$medium-grey:#d5d5cf;
+$dark-grey:#c9c5bb;
+$grey: #f4f3ee;
+
+//yellows
+$yellow: #fffdca;
+$yellow-dark: #edebbc;
+
+//pinks
+$pink: #fdecff;
+$pink-background:#ffcbf9;
+//$pink-background:#fbb0f2;
+
+//greens
+$green: #d6fcc1;
+$green-background:#a0f3c5;
+//$green-background:#85f4b6;
+
+//oranges
+$orange: #fbebd5;
+$orange-dark:#f5e0c0;
+
+//beiges
+$beige: #f7f0da;
+$beige-dark:#eee4c4;
+
+//turquoises
+$turquoise: #d7f7ea;
+$turquoise-background:#bae2ea;
+//$turquoise-background:#96deed;
+
+//purples
+$purple: #ebe1fe;
+$purple-dark:#ded4f2;
+
+
+
+//fonts
+@font-face {
+    font-family: 'akzidenz-grotesk_bq_condensMd';
+    src: url('../fonts/akzidenzgrotesk-mediumcondalt-webfont.eot');
+    src: url('../fonts/akzidenzgrotesk-mediumcondalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/akzidenzgrotesk-mediumcondalt-webfont.woff') format('woff'),
+         url('../fonts/akzidenzgrotesk-mediumcondalt-webfont.ttf') format('truetype'),
+         url('../fonts/akzidenzgrotesk-mediumcondalt-webfont.svg#akzidenz-grotesk_bq_condensMd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'bodoni-std-black';
+    src: url('../fonts/bodoni-black.eot');
+    src: url('../fonts/bodoni-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bodoni-black.woff') format('woff'),
+         url('../fonts/bodoni-black.ttf') format('truetype'),
+         url('../fonts/bodoni-black.svg#bodoni-black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('../fonts/alegreya-regular-webfont.eot');
+    src: url('../fonts/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alegreya-regular-webfont.woff') format('woff'),
+         url('../fonts/alegreya-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:url('../fonts/icomoon/fonts/icomoon.eot?3108fr');
+    src:url('../fonts/icomoon/fonts/icomoon.eot?#iefix3108fr') format('embedded-opentype'),
+        url('../fonts/icomoon/fonts/icomoon.woff?3108fr') format('woff'),
+        url('../fonts/icomoon/fonts/icomoon.ttf?3108fr') format('truetype'),
+        url('../fonts/icomoon/fonts/icomoon.svg?3108fr#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('../fonts/edo-webfont.eot');
+    src: url('../fonts/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edo-webfont.woff') format('woff'),
+         url('../fonts/edo-webfont.ttf') format('truetype'),
+         url('../fonts/edo-webfont.svg#edoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+%edo-regular{
+   font-family: 'edoregular','Helvetica Neue',Helvetica, Arial, sans-serif;
+   -webkit-font-smoothing: antialiased;
+   font-weight:normal;
+}
+
+%akzidenz-grotesk{
+    font-family: 'akzidenz-grotesk_bq_condensMd','Helvetica Neue',Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:normal;
+}
+
+%icomoon{
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+%bodoni-std-black{
+   font-family: 'bodoni-std-black', Helvetica, Times, 'Times New Roman', serif;
+   -webkit-font-smoothing: antialiased;
+   font-weight:normal;
+}
+
+%alegreya{
+    font-family: 'alegreyaregular', Georgia, Times, 'Times New Roman', serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight:normal;
+}

@@ -1,0 +1,102 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M819.2 448h-614.4c-28.262 0-51.2 22.938-51.2 51.2s22.938 51.2 51.2 51.2h614.4c28.314 0 51.2-22.938 51.2-51.2s-22.886-51.2-51.2-51.2zM204.8 345.6h614.4c28.314 0 51.2-22.938 51.2-51.2s-22.886-51.2-51.2-51.2h-614.4c-28.262 0-51.2 22.938-51.2 51.2s22.938 51.2 51.2 51.2zM819.2 652.8h-614.4c-28.262 0-51.2 22.886-51.2 51.2s22.938 51.2 51.2 51.2h614.4c28.314 0 51.2-22.886 51.2-51.2s-22.886-51.2-51.2-51.2z"
+				],
+				"defaultCode": 58881,
+				"grid": 0,
+				"tags": [
+					"icomoon"
+				]
+			},
+			"properties": {
+				"order": 3,
+				"id": 2,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "icomoon",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M503.009 1015.008l47.156-47.156-455.851-455.852 455.851-455.852-47.156-47.157-503.009 503.009z",
+					"M976.843 1015.008l47.157-47.156-455.852-455.852 455.852-455.852-47.157-47.157-503.008 503.009z"
+				],
+				"grid": 0,
+				"tags": [
+					"arrow-previous"
+				]
+			},
+			"properties": {
+				"order": 1,
+				"id": 1,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "arrow-previous",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		},
+		{
+			"icon": {
+				"paths": [
+					"M520.991 8.992l-47.156 47.157 455.851 455.851-455.851 455.852 47.156 47.157 503.009-503.009z",
+					"M47.157 8.992l-47.157 47.157 455.851 455.851-455.851 455.852 47.157 47.157 503.008-503.009z"
+				],
+				"grid": 0,
+				"tags": [
+					"arrow-next"
+				]
+			},
+			"properties": {
+				"order": 2,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58882,
+				"name": "arrow-next",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 2
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "icomoon"
+	},
+	"preferences": {
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "icomoon",
+				"majorVersion": 1,
+				"minorVersion": 0
+			},
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showMetrics": true,
+			"showMetadata": true,
+			"showVersion": true
+		},
+		"imagePref": {},
+		"historySize": 100,
+		"showCodes": true,
+		"search": "",
+		"showLiga": false,
+		"gridSize": 16
+	}
+}
